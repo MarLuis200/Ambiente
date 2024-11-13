@@ -1,3 +1,9 @@
+/* Animación de deslizamiento hacia abajo */
+@keyframes slideDown {
+0% { transform: translateY(-100%); opacity: 0; }
+100% { transform: translateY(0); opacity: 1; }
+}
+
 .font-poppins {
     font-family: 'Poppins', sans-serif;
 }

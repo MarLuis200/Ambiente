@@ -121,7 +121,7 @@
 <div class="flex flex-col md:flex-row items-center md:space-x-10 mt-16">
     <div data-aos="fade-right" class="md:w-1/2 lg:pl-14">
         <h1 class="text-darken font-semibold text-3xl lg:pr-56 text-gray-800 dark:text-gray-100">
-            <span class="text-yellow-500 dark:text-amber-200">Conservar</span> Es <span class="text-amber-300 dark:text-green-500">Vivir</span>
+            <span class="text-yellow-500 dark:text-amber-200">Conservar</span> Es <span class="text-green-500 dark:text-green-500">Vivir</span>
         </h1>
         <p class="text-gray-500 dark:text-gray-300 my-4 lg:pr-32 text-justify">
             Somos parte del proceso evolutivo, y, en algún momento, el desarrollo del cerebro comenzó a permitirnos creaciones culturales y técnicas. Estas nos plantean deberes éticos ante la naturaleza, ante nosotros y ante los seres humanos del futuro. Cuidar la naturaleza es cuidarnos a nosotros mismos.
@@ -130,20 +130,33 @@
             Dr. José Sarukhán, Biólogo mexicano
         </p>
     </div>
-    <img data-aos="fade-left" class="md:w-1/2" src="img/girl-with-books.png">
+    <img data-aos="fade-left" class="md:w-1/2" src="img/hongos.png">
 </div>
 
-    <div class="mt-20 flex flex-col-reverse md:flex-row items-center md:space-x-10">
-        <div data-aos="fade-right" class="md:w-6/12">
-            <img class="md:w-11/12" src="img/true-false.png">
-        </div>
-        <div data-aos="fade-left" class="md:w-6/12 md:transform md:-translate-y-20">
-            <h1 class="font-semibold text-darken text-3xl lg:pr-64">Assessments, <span class="text-yellow-500">Quizzes</span>, Tests</h1>
-            <p class="text-gray-500 my-5 lg:pr-52">Easily launch live assignments, quizzes, and tests. Student results are automatically entered in the online gradebook.</p>
+<div class="mt-20 flex flex-col-reverse md:flex-row items-center md:space-x-10">
+    <!-- Imagen con efecto de escala y sombra -->
+    <div data-aos="fade-right" class="md:w-6/12 p-4 flex justify-center items-center">
+        <div class="overflow-hidden rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-xl bg-transparent">
+            <img class="md:w-11/12 rounded-lg" src="img/mazahua.jpeg" alt="Imagen Mazahua">
         </div>
     </div>
 
-    <!-- Class Management Tools for Educators -->
+    <!-- Contenido de texto con estilos y colores atractivos -->
+    <div data-aos="fade-left" class="md:w-6/12 md:transform md:-translate-y-20">
+        <h1 class="font-bold text-4xl lg:text-5xl lg:pr-64 text-gray-800 dark:text-gray-100 leading-snug">
+            Conexión con la <span class="text-blue-500 dark:text-blue-300">Tierra</span>,
+            <span class="text-yellow-500 dark:text-amber-200">Cultura</span> y
+            <span class="text-green-600 dark:text-green-400">Naturaleza</span>
+        </h1>
+        <p class="text-gray-600 dark:text-gray-300 my-5 lg:pr-52 text-justify leading-relaxed">
+            Honramos el trabajo de aquellos que cultivan la tierra con sabiduría ancestral, cuidando y respetando el entorno natural. En cada semilla plantada y en cada cosecha.
+        </p>
+
+    </div>
+</div>
+
+
+
     <div class="flex flex-col md:flex-row items-center mt-12">
         <div data-aos="fade-right" class="md:w-5/12">
             <h1 class="text-darken font-semibold text-3xl leading-tight lg:pr-32"><span class="text-yellow-500">Class Management</span> Tools for Educators</h1>
@@ -163,101 +176,71 @@
         </div>
     </div>
 
-    <button data-aos="flip-up" class="px-5 py-3 border border-yellow-500 text-yellow-500 font-medium my-14 focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out rounded-full mx-auto block">See more features</button>
 
-    <!-- INTEGRATIONS -->
-    <div class="mt-24 flex flex-col md:flex-row items-start md:space-x-10">
-        <div data-aos="zoom-in-right" class="md:w-6/12">
-            <img class="md:w-8/12 mx-auto" src="img/integrations.png">
-        </div>
-        <div data-aos="zoom-in-left" class="md:w-6/12">
-            <div class="flex items-center space-x-20 mb-5">
-                <span class="border border-gray-300 w-14 absolute"></span>
-                <h1 class="text-gray-400 tracking-widest text-sm">INTEGRATIONS</h1>
-            </div>
-            <h1 class="font-semibold text-darken text-2xl lg:pr-40">200+ educational tools and platform <span class="text-yellow-500">integrations</span></h1>
-            <p class="text-gray-500 my-5 lg:pr-20">Schoology has every tool your classroom needs and comes pre-integrated with more than 200+ tools, student information systems (SIS), and education platforms.</p>
-            <button class="px-5 py-3 border border-yellow-500 text-yellow-500 font-medium my-4 focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out rounded-full">See All Integrations</button>
-        </div>
-    </div>
+<div data-aos="zoom-in" class="mt-16 text-center">
+    <h1 class="text-3xl font-extrabold text-blue-500 dark:text-amber-300">Nuestros Proyectos</h1>
+</div>
 
-    <!-- TESTIMONIAL -->
-    <div class="mt-24 flex flex-col-reverse md:flex-row items-start md:space-x-10">
-        <div data-aos="zoom-in-right" class="md:w-5/12">
-            <div class="flex items-center space-x-20 mb-5">
-                <span class="border border-gray-300 w-14 absolute"></span>
-                <h1 class="text-gray-400 tracking-widest text-sm">TESTIMONIAL</h1>
-            </div>
-            <h1 class="font-semibold text-darken text-2xl lg:pr-40">What They Say?</h1>
-            <p class="text-gray-500 my-5 lg:pr-36">Skilline has got more than 100k positive ratings from our users around the world.</p>
-            <p class="text-gray-500 my-5 lg:pr-36">Some of the students and teachers were greatly helped by the Skilline.</p>
-            <p class="text-gray-500 my-5 lg:pr-36">Are you too? Please give your assessment</p>
-            <button class="flex items-center space-x-3 pl-3 border-b border-l border-t border-yellow-500 text-yellow-500 font-medium my-4 focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out rounded-full">
-                <span>Write your assessment</span>
-                <div class="border border-yellow-500 h-14 w-14 rounded-full flex items-center justify-center">
-                    <svg class="w-5 h-5" viewBox="0 0 26 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M25.7071 8.70711C26.0976 8.31658 26.0976 7.68342 25.7071 7.2929L19.3431 0.928934C18.9526 0.538409 18.3195 0.538409 17.9289 0.928934C17.5384 1.31946 17.5384 1.95262 17.9289 2.34315L23.5858 8L17.9289 13.6569C17.5384 14.0474 17.5384 14.6805 17.9289 15.0711C18.3195 15.4616 18.9526 15.4616 19.3431 15.0711L25.7071 8.70711ZM-8.74228e-08 9L25 9L25 7L8.74228e-08 7L-8.74228e-08 9Z" fill="#F48C06"/>
-                    </svg>
-                </div>
-            </button>
-        </div>
-        <div data-aos="zoom-in-left" class="md:w-7/12">
-            <img class="md:w-10/12 mx-auto" src="img/testimonials.png">
-        </div>
-    </div>
+<div class="lg:w-10/12 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-12">
 
-    <!-- Latest News and Resources -->
-    <div data-aos="zoom-in" class="mt-16 text-center">
-        <h1 class="text-darken text-2xl font-semibold">Latest News and Resources</h1>
-        <p class="text-gray-500 my-5">See the developments that have occurred to Skillines in the world</p>
-    </div>
-    <div data-aos="zoom-in-up" class="my-14 flex flex-col lg:flex-row lg:space-x-20">
-        <div class="lg:w-6/12">
-            <img class="w-full mb-6" src="img/laptop-news.png">
-            <span class="bg-yellow-300 text-darken font-semibold px-4 py-px text-sm rounded-full">NEWS</span>
-            <h1 class="text-gray-800 font-semibold my-3 text-xl">Class adds $30 million to its balance sheet for a Zoom-friendly edtech solution</h1>
-            <p class="text-gray-500 mb-3">Class, launched less than a year ago by Blackboard co-founder Michael Chasen, integrates exclusively...</p>
-            <a href="" class="underline">Read more</a>
+    <!-- Proyecto 1 -->
+    <a href="#proyecto1" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800" class="flex flex-col items-center text-center rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300 bg-transparent group">
+        <div class="relative overflow-hidden rounded-lg">
+            <img class="w-full transform transition-transform duration-500 group-hover:scale-110 rounded-lg" src="img/proyecto.jpeg" alt="Proyecto 1">
+            <span class="absolute bottom-2 right-2 bg-blue-300 text-darken font-semibold px-4 py-px text-sm rounded-full">PROYECTO LA HUELLA DEL FUEGO</span>
         </div>
-        <div class="lg:w-7/12 flex flex-col justify-between mt-12 space-y-5 lg:space-y-0 lg:mt-0">
-            <div class="flex space-x-5">
-                <div class="w-4/12">
-                    <div class="relative">
-                        <img class="rounded-xl w-full" src="img/children-laptop.png">
-                        <span class="absolute bottom-2 right-2 bg-yellow-300 text-darken font-semibold px-4 py-px text-sm rounded-full hidden sm:block">PRESS RELEASE</span>
-                    </div>
-                </div>
-                <div class="w-8/12">
-                    <h1 class="text-gray-800 text-sm sm:text-lg font-semibold">Class Technologies Inc. Closes $30 Million Series A Financing to Meet High Demand</h1>
-                    <p class="text-gray-500 my-2 sm:my-4 text-xs sm:text-md">Class Technologies Inc., the company that created Class,...</p>
-                </div>
-            </div>
-            <div class="flex space-x-5">
-                <div class="w-4/12">
-                    <div class="relative">
-                        <img class="rounded-xl w-full" src="img/girl-laptop.png">
-                        <span class="absolute bottom-2 right-2 bg-yellow-300 text-darken font-semibold px-4 py-px text-sm rounded-full hidden sm:block">NEWS</span>
-                    </div>
-                </div>
-                <div class="w-8/12">
-                    <h1 class="text-gray-800 text-sm sm:text-lg font-semibold">Zoom’s earliest investors are betting millions on a better Zoom for schools</h1>
-                    <p class="text-gray-500 my-2 sm:my-4 text-xs sm:text-md">Zoom was never created to be a consumer product. Nonetheless, the...</p>
-                </div>
-            </div>
-            <div class="flex space-x-5">
-                <div class="w-4/12">
-                    <div class="relative">
-                        <img class="rounded-xl w-full" src="img/cat-laptop.png">
-                        <span class="absolute bottom-2 right-2 bg-yellow-300 text-darken font-semibold px-4 py-px text-sm rounded-full hidden sm:block">NEWS</span>
-                    </div>
-                </div>
-                <div class="w-8/12">
-                    <h1 class="text-gray-800 text-sm sm:text-lg font-semibold">Former Blackboard CEO Raises $16M to Bring LMS Features to Zoom Classrooms</h1>
-                    <p class="text-gray-500 my-2 sm:my-4 text-xs sm:text-md">This year, investors have reaped big financial returns from betting on Zoom...</p>
-                </div>
-            </div>
+        <p class="text-gray-600 dark:text-gray-300 my-4 text-sm text-justify group-hover:text-gray-600 transition-colors duration-300" style="font-family: 'Poppins', sans-serif;">La Huella del Fuego es un proyecto multimedia que inició en marzo del 2019 con el objetivo de abordar los conflictos socioambientales en la microcuenca Amanalco-Valle...</p>
+    </a>
+
+    <!-- Proyecto 2 -->
+    <a href="#proyecto2" data-aos="fade-up" data-aos-delay="300" data-aos-duration="800" class="flex flex-col items-center text-center rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300 bg-transparent group">
+        <div class="relative overflow-hidden rounded-lg">
+            <img class="w-full transform transition-transform duration-500 group-hover:scale-110 rounded-lg" src="img/proyecto2.jpeg" alt="Proyecto 2">
+            <span class="absolute bottom-2 left-2 bg-amber-500 text-darken font-semibold px-4 py-px text-sm rounded-full">EL ESPÍRITU DEL VALLE</span>
         </div>
-    </div>
+        <p class="text-gray-600 dark:text-gray-300 my-4 text-sm text-justify group-hover:text-gray-500 transition-colors duration-300" style="font-family: 'Poppins', sans-serif;">Malinalxochitl, una cooperativa de productores de mezcal orgánico y artesanal en las montañas del sur del Estado de México, agrupa a campesinos que, siguiendo y adaptando la antigua tradición de esta tierra...</p>
+    </a>
+
+    <!-- Proyecto 3 -->
+    <a href="#proyecto3" data-aos="fade-up" data-aos-delay="500" data-aos-duration="800" class="flex flex-col items-center text-center rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300 bg-transparent group">
+        <div class="relative overflow-hidden rounded-lg">
+            <img class="w-full transform transition-transform duration-500 group-hover:scale-110 rounded-lg" src="img/proyecto3.jpeg" alt="Proyecto 3">
+            <span class="absolute bottom-2 right-2 bg-yellow-300 text-darken font-semibold px-4 py-px text-sm rounded-full">BOSQUE DE NIEBLA</span>
+        </div>
+        <p class="text-gray-600 dark:text-gray-300 my-4 text-sm text-justify group-hover:text-gray-500 transition-colors duration-300" style="font-family: 'Poppins', sans-serif;">En las regiones montañosas del centro de México, existe un tipo particular de bosque muy diverso y complejo, reducto de grandes bosques anteriores a las glaciaciones, que ha sido definido por investigadores como una selva bajo un bosque templado...</p>
+    </a>
+
+    <!-- Proyecto 4 -->
+    <a href="#proyecto4" data-aos="fade-up" data-aos-delay="700" data-aos-duration="800" class="flex flex-col items-center text-center rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300 bg-transparent group">
+        <div class="relative overflow-hidden rounded-lg">
+            <img class="w-full transform transition-transform duration-500 group-hover:scale-110 rounded-lg" src="img/proyecto4.jpeg" alt="Proyecto 4">
+            <span class="absolute bottom-2 left-2 bg-teal-100 text-darken font-semibold px-4 py-px text-sm rounded-full">FERIA DEL HONGO</span>
+        </div>
+        <p class="text-gray-600 dark:text-gray-300 my-4 text-sm text-justify group-hover:text-gray-500 transition-colors duration-300" style="font-family: 'Poppins', sans-serif;">San Antonio de la Laguna, Donato Guerra, comunidad mazahua enclavada en bosques de pino en el suroeste del Estado de México, cuenta con una tradición milenaria en el aprovechamiento de los hongos comestibles...</p>
+    </a>
+
+    <!-- Proyecto 5 -->
+    <a href="#proyecto5" data-aos="fade-up" data-aos-delay="900" data-aos-duration="800" class="flex flex-col items-center text-center rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300 bg-transparent group">
+        <div class="relative overflow-hidden rounded-lg aspect-w-4 aspect-h-3">
+            <img class="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110 rounded-lg" src="img/proyecto6.jpeg" alt="Proyecto 5">
+            <span class="absolute bottom-2 right-2 bg-teal-100 text-darken font-semibold px-4 py-px text-sm rounded-full">BIODIVERSIDAD-MÁS ALLÁ DE LA MONARCA</span>
+        </div>
+        <p class="text-gray-600 dark:text-gray-300 my-4 text-sm text-justify group-hover:text-gray-500 transition-colors duration-300" style="font-family: 'Poppins', sans-serif;">En la Reserva de la Mariposa Monarca existen conexiones entre muchas especies que hacen posible el bienestar de la región.....</p>
+    </a>
+
+    <!-- Proyecto 6 -->
+    <a href="#proyecto6" data-aos="fade-up" data-aos-delay="900" data-aos-duration="800" class="flex flex-col items-center text-center rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300 bg-transparent group">
+        <div class="relative overflow-hidden rounded-lg aspect-w-4 aspect-h-3">
+            <img class="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110 rounded-lg" src="img/proyecto5.jpeg" alt="Proyecto 6">
+            <span class="absolute bottom-2 left-2 bg-teal-100 text-darken font-semibold px-4 py-px text-sm rounded-full">RED MONARCA</span>
+        </div>
+        <p class="text-gray-600 dark:text-gray-300 my-4 text-sm text-justify group-hover:text-gray-500 transition-colors duration-300" style="font-family: 'Poppins', sans-serif;">Es importante conocerlas, y conocer a las comunidades y organizaciones que están uniendo esfuerzos por conservar estos delicados ecosistemas.....</p>
+    </a>
+
+</div>
+
+
+
 </div>
 
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

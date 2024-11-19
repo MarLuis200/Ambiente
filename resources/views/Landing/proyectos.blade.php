@@ -34,31 +34,42 @@
 
 
         <div :class="open ? 'block' : 'hidden'" class="w-full md:flex md:items-center md:w-auto md:justify-center" id="navbar-sticky">
-            <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            <ul class="flex flex-col p-2 md:p-0 mt-2 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-6 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                 <li>
-                    <a href="{{ route('landing.index') }}" class="block py-2 px-3 text-gray-900 dark:text-white hover:text-yellow-400 dark:hover:text-yellow-300 md:p-0 transition duration-300">Inicio</a>
+                    <a href="{{ route('landing.index') }}" class="block py-1 px-3 text-gray-900 dark:text-white hover:text-yellow-400 dark:hover:text-yellow-300 md:p-0 transition duration-300">Inicio</a>
                 </li>
                 <li>
-                    <a href="{{ route('landing.proyectos') }}" class="block py-2 px-3 text-gray-900 dark:text-white hover:text-yellow-400 dark:hover:text-yellow-300 md:p-0 transition duration-300">Proyectos</a>
+                    <a href="{{ route('landing.proyectos') }}" class="block py-1 px-3 text-gray-900 dark:text-white hover:text-yellow-400 dark:hover:text-yellow-300 md:p-0 transition duration-300">Proyectos</a>
                 </li>
                 <li>
-                    <a href="{{ route('landing.blogs') }}" class="block py-2 px-3 text-gray-900 dark:text-white hover:text-yellow-400 dark:hover:text-yellow-300 md:p-0 transition duration-300">Blogs</a>
+                    <a href="{{ route('landing.blogs') }}" class="block py-1 px-3 text-gray-900 dark:text-white hover:text-yellow-400 dark:hover:text-yellow-300 md:p-0 transition duration-300">Blogs</a>
                 </li>
                 <li>
-                    <a href="#" class="block py-2 px-3 text-gray-900 dark:text-white hover:text-yellow-400 dark:hover:text-yellow-300 md:p-0 transition duration-300">Nosotros</a>
+                    <a href="{{ route('landing.galeria') }}" class="block py-1 px-3 text-gray-900 dark:text-white hover:text-yellow-400 dark:hover:text-yellow-300 md:p-0 transition duration-300">Galeria de Fotos</a>
+                </li>
+                <li>
+                    <a href="{{ route('landing.quienes.somos') }}" class="block py-1 px-3 text-gray-900 dark:text-white hover:text-yellow-400 dark:hover:text-yellow-300 md:p-0 transition duration-300">¿Quiénes Somos?</a>
+                </li>
+                <li>
+                    <a href="{{ route('landing.quienes.somos') }}" class="block py-1 px-3 text-gray-900 dark:text-white hover:text-yellow-400 dark:hover:text-yellow-300 md:p-0 transition duration-300">Acerca De</a>
+                </li>
+                <li>
+                    <a href="{{ route('landing.quienes.somos') }}" class="block py-1 px-3 text-gray-900 dark:text-white hover:text-yellow-400 dark:hover:text-yellow-300 md:p-0 transition duration-300">Premios</a>
+                </li>
+                <li>
+                    <a href="{{ route('landing.quienes.somos') }}" class="block py-1 px-3 text-gray-900 dark:text-white hover:text-yellow-400 dark:hover:text-yellow-300 md:p-0 transition duration-300">Donaciones</a>
                 </li>
 
                 <li>
                     <button @click="theme = theme === 'light' ? 'dark' : 'light'" class="p-2 rounded-full bg-gray-200 dark:bg-gray-800 transition duration-300 ease-in-out focus:outline-none">
-                        <svg x-show="theme === 'light'" class="w-5 h-5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
+                        <svg x-show="theme === 'light'" class="w-4 h-4 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
                             <path d="M10 5a5 5 0 000 10 5 5 0 000-10zm0-3a1 1 0 110 2h-.02a1 1 0 010-2H10zm0 16a1 1 0 110 2h-.02a1 1 0 010-2H10zm9-9a1 1 0 110 2v-.02a1 1 0 110-2V10zm-16 0a1 1 0 110 2H3a1 1 0 010-2h.02zM15.45 6.14a1 1 0 011.41 0l.02.02a1 1 0 010 1.41L16.88 8a1 1 0 11-1.41-1.42l-.02-.02zM4.12 13.76a1 1 0 110 1.42l-.02.02a1 1 0 01-1.41 0L2 14.17a1 1 0 111.42-1.41l.02.02z"/>
                         </svg>
-                        <svg x-show="theme === 'dark'" class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                        <svg x-show="theme === 'dark'" class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
                             <path d="M10 1a9 9 0 000 18 9 9 0 000-18zm1 16V3a7 7 0 010 14z"/>
                         </svg>
                     </button>
                 </li>
-
             </ul>
         </div>
 
@@ -67,8 +78,6 @@
         </div>
     </div>
 </nav>
-
-
 
 <div class="hero-section relative overflow-hidden bg-black text-white ">
     <div id="carousel" class="absolute inset-0 w-full h-full">
@@ -86,20 +95,14 @@
             <p class="text-sm md:text-base">¡Bienvenidos a un mundo más verde!</p>
         </div>
 
-
-
         <div class="absolute bottom-20 left-5 md:bottom-24 md:left-10 bg-emerald-200 text-blue-800 px-3 py-2 md:px-4 md:py-2 rounded-lg shadow-lg animate-pulse inline-flex items-center space-x-2">
             <img src="{{ asset('img/arbol.png') }}" class="h-5 w-5 md:h-6 md:w-6" alt="Icono Planeta">
             <p class="text-sm md:text-base">Promovemos prácticas sostenibles</p>
         </div>
 
-
-
-        <!-- Contenido Principal -->
         <h1 class="text-4xl md:text-6xl lg:text-7xl font-extrabold tracking-tight uppercase text-blue-300 mb-4 animate-pulse leading-tight shadow-md md:shadow-lg lg:shadow-xl transform transition-all duration-300 ease-in-out hover:scale-105">
             Nuestros <br> Proyectos
         </h1>
-
 
         <p class="text-base md:text-lg lg:text-2xl max-w-xl mx-auto mb-8 text-gray-300 text-justify font-semibold tracking-wide leading-relaxed italic">
             Exploramos la conexión entre humanidad y naturaleza, promoviendo prácticas sostenibles para un futuro más verde y consciente.
@@ -110,16 +113,11 @@
             Ver Proyectos
         </a>
     </div>
-
-
-
-
-
 </div>
 
 
 <div class="flex flex-col md:flex-row items-center md:space-x-10 mt-16">
-    <div data-aos="fade-right" class="md:w-1/2 lg:pl-14">
+    <div data-aos="fade-left" class="md:w-1/2 lg:pl-14">
         <h1 class="text-darken font-semibold text-3xl lg:pr-56 text-gray-800 dark:text-gray-100">
             <span class="text-yellow-500 dark:text-amber-200">Conservar</span> Es <span class="text-green-500 dark:text-green-500">Vivir</span>
         </h1>
@@ -130,20 +128,18 @@
             Dr. José Sarukhán, Biólogo mexicano
         </p>
     </div>
-    <img data-aos="fade-left" class="md:w-1/2" src="img/hongos.png">
+    <img data-aos="fade-right" class="md:w-1/2" src="img/hongos.png">
 </div>
 
 <div class="mt-20 flex flex-col-reverse md:flex-row items-center md:space-x-10">
-    <!-- Imagen con efecto de escala y sombra -->
-    <div data-aos="fade-right" class="md:w-6/12 p-4 flex justify-center items-center">
+    <div data-aos="fade-left" class="md:w-6/12 p-4 flex justify-center items-center">
         <div class="overflow-hidden rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-xl bg-transparent">
             <img class="md:w-11/12 rounded-lg" src="img/mazahua.jpeg" alt="Imagen Mazahua">
         </div>
     </div>
 
-    <!-- Contenido de texto con estilos y colores atractivos -->
-    <div data-aos="fade-left" class="md:w-6/12 md:transform md:-translate-y-20">
-        <h1 class="font-bold text-4xl lg:text-5xl lg:pr-64 text-gray-800 dark:text-gray-100 leading-snug">
+    <div data-aos="fade-right" class="md:w-6/12 md:transform md:-translate-y-20">
+        <h1 class="text-darken font-semibold text-3xl lg:pr-56 text-gray-800 dark:text-gray-100">
             Conexión con la <span class="text-blue-500 dark:text-blue-300">Tierra</span>,
             <span class="text-yellow-500 dark:text-amber-200">Cultura</span> y
             <span class="text-green-600 dark:text-green-400">Naturaleza</span>
@@ -151,39 +147,48 @@
         <p class="text-gray-600 dark:text-gray-300 my-5 lg:pr-52 text-justify leading-relaxed">
             Honramos el trabajo de aquellos que cultivan la tierra con sabiduría ancestral, cuidando y respetando el entorno natural. En cada semilla plantada y en cada cosecha.
         </p>
+    </div>
+</div>
 
+<div class="flex flex-col md:flex-row items-center md:space-x-10 mt-16">
+    <div data-aos="fade-left" class="md:w-1/2 lg:pl-14">
+        <h1 class="text-darken font-semibold text-3xl lg:pr-56 text-gray-800 dark:text-gray-100">
+            <span class="text-green-600 dark:text-green-400 text-justify">Nuestros pueblos</span> Mazahuas
+        </h1>
+        <p class="my-5 lg:pr-14 text-gray-700 dark:text-gray-300 text-justify">
+            Adéntrate en el corazón de la cultura mazahua y maravíllate con su conexión profunda con la naturaleza, desde sus coloridos textiles hasta sus tradiciones ancestrales, los pueblos mazahuas son un testimonio vivo de la armonía entre el ser humano y su entorno.
+        </p>
+    </div>
+    <div data-aos="fade-right" class="md:w-6/12 p-4 flex justify-center items-center">
+        <div class="overflow-hidden rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-xl bg-transparent">
+            <img class="md:w-11/12 rounded-lg" src="img/mazahuas.jpg" alt="Imagen Mazahua">
+        </div>
+    </div>
+</div>
+
+<div class="mt-24 flex flex-col-reverse md:flex-row items-center md:space-x-10">
+    <div data-aos="fade-left" class="md:w-6/12 p-4 flex justify-center items-center">
+        <div class="overflow-hidden rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-xl bg-transparent">
+            <img class="md:w-11/12 rounded-lg" src="img/flora.jpeg" alt="Imagen Mazahua">
+        </div>
+    </div>
+    <div data-aos="fade-right" class="md:w-5/12 md:transform md:-translate-y-6">
+        <h1 class="font-semibold text-3xl lg:pr-64 ">
+            <span class="text-green-600 dark:text-emerald-400">La Riqueza de la</span> <span class="text-blue-600 dark:text-yellow-400">Flora y Fauna</span>
+        </h1>
+        <p class="text-gray-700 dark:text-gray-300 my-5 lg:pr-2 text-justify" >
+            Conoce las diversas especies de plantas y animales que hacen de nuestro planeta un lugar único. Cada ecosistema cuenta una historia de vida y evolución.
+        </p>
     </div>
 </div>
 
 
 
-    <div class="flex flex-col md:flex-row items-center mt-12">
-        <div data-aos="fade-right" class="md:w-5/12">
-            <h1 class="text-darken font-semibold text-3xl leading-tight lg:pr-32"><span class="text-yellow-500">Class Management</span> Tools for Educators</h1>
-            <p class="my-5 lg:pr-14">Class provides tools to help run and manage the class such as Class Roster, Attendance, and more. With the Gradebook, teachers can review and grade tests and quizzes in real-time.</p>
-        </div>
-        <img data-aos="fade-left" class="md:w-7/12" src="img/gradebook.png">
+<div id="proyectos" data-aos="zoom-in" class="mt-16 text-center">
+        <h1 class="text-3xl font-extrabold text-blue-500 dark:text-amber-300">Nuestros Proyectos</h1>
     </div>
-
-    <!-- One-on-One Discussions -->
-    <div class="mt-24 flex flex-col-reverse md:flex-row items-center md:space-x-10">
-        <div data-aos="fade-right" class="md:w-7/12">
-            <img class="md:w-11/12" src="img/discussion.png">
-        </div>
-        <div data-aos="fade-left" class="md:w-5/12 md:transform md:-translate-y-6">
-            <h1 class="font-semibold text-darken text-3xl lg:pr-64">One-on-One <span class="text-yellow-500">Discussions</span></h1>
-            <p class="text-gray-500 my-5 lg:pr-24">Teachers and teacher assistants can talk with students privately without leaving the Zoom environment.</p>
-        </div>
-    </div>
-
-
-<div data-aos="zoom-in" class="mt-16 text-center">
-    <h1 class="text-3xl font-extrabold text-blue-500 dark:text-amber-300">Nuestros Proyectos</h1>
-</div>
 
 <div class="lg:w-10/12 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-12">
-
-    <!-- Proyecto 1 -->
     <a href="#proyecto1" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800" class="flex flex-col items-center text-center rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300 bg-transparent group">
         <div class="relative overflow-hidden rounded-lg">
             <img class="w-full transform transition-transform duration-500 group-hover:scale-110 rounded-lg" src="img/proyecto.jpeg" alt="Proyecto 1">

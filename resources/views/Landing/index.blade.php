@@ -15,7 +15,6 @@
 <body class="text-gray-800">
 <nav class="bg-black bg-opacity-100 text-white fixed w-full z-50 top-0 border-b border-gray-900" x-data="{ open: false }" style="animation: slideDown 1.5s ease-out;">
     <div class="max-w-screen-xl flex items-center justify-between mx-auto p-4">
-        <!-- Logo y título -->
         <a href="#" class="flex items-center space-x-3">
             <img src="{{ asset('img/cielo2.png') }}" class="h-8 w-8 rounded-full" alt="Logo">
             <span class="self-center text-lg md:text-2xl font-semibold whitespace-nowrap text-white">Cielo Rojo</span>
@@ -110,7 +109,7 @@
                     </div>
                 </div>
 
-                
+
                 <div data-aos="zoom-in" class="sm:w-1/2 relative mt-5 sm:mt-0"> <!-- Efecto de acercamiento -->
                     <div class="rounded-xl z-40 relative max-w-full bg-gray-900 bg-opacity-80 p-4" style="padding-bottom: 56.25%; height: 0;">
                         <iframe
@@ -133,7 +132,7 @@
 
             <div class="sm:flex items-center sm:space-x-8 overflow-hidden">
                 <div data-aos="zoom-in" class="sm:w-1/2 relative flex flex-col items-center text-center"> <!-- items-center para centrar el contenido -->
-                    <h1 class="font-semibold text-2xl text-green-700 mb-4 max-w-md">
+                    <h1 class="font-semibold text-2xl text-green-700 mb-4 max-w-md text-justify">
                         Gobernanza del agua en las comunidades <span class="text-blue-900">de la Cuenca del Río San Juan Zitácuaro</span>
                     </h1>
                     <div class="flex flex-col items-center max-w-md">
@@ -141,7 +140,7 @@
                         <p class="py-5 text-justify">Este enfoque ha demostrado ser efectivo en la Cuenca del Río San Juan Zitácuaro, ubicada en la región de la mariposa monarca, donde las comunidades se esfuerzan por preservar y gestionar sus recursos hídricos.</p>
                     </div>
                 </div>
-                
+
                 <div data-aos="zoom-in" class="sm:w-1/2 relative mt-5 sm:mt-0"> <!-- Efecto de acercamiento -->
                     <div class="rounded-xl z-40 relative max-w-full bg-gray-900 bg-opacity-80 p-4" style="padding-bottom: 56.25%; height: 0;">
                         <iframe
@@ -163,7 +162,7 @@
         <section class="bg-white text-black py-12">
             <div class="max-w-screen-xl mx-auto px-8 sm:px-16">
             <div data-aos="fade-down" class="text-center mb-6">
-                <h2 data-aos="fade-down" class="font-semibold text-center text-green-700 mb-6 text-4xl"> 
+                <h2 data-aos="fade-down" class="font-semibold text-center text-green-700 mb-6 text-4xl">
                     Documental <br>
                     <span class="text-blue-900 text-2xl">El taco Mazahua, entre el oro verde y la monarca</span>
                 </h2>
@@ -356,7 +355,7 @@
         <div class="flex flex-col items-center space-y-6">
             <h2 class="text-3xl font-bold tracking-wide text-center">Ambiente Cielo Rojo</h2>
 
-            
+
             <!-- Redes sociales con iconos más grandes y en círculos -->
             <div class="flex space-x-6">
                 <a href="#" target="_blank" class="p-3 bg-white bg-opacity-10 rounded-full hover:bg-opacity-20 transition duration-300 ease-in-out">

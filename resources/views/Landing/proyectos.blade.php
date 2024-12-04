@@ -51,13 +51,13 @@
                     <a href="{{ route('landing.quienes.somos') }}" class="block py-1 px-3 text-gray-900 dark:text-white hover:text-yellow-400 dark:hover:text-yellow-300 md:p-0 transition duration-300">¿Quiénes Somos?</a>
                 </li>
                 <li>
-                    <a href="{{ route('landing.quienes.somos') }}" class="block py-1 px-3 text-gray-900 dark:text-white hover:text-yellow-400 dark:hover:text-yellow-300 md:p-0 transition duration-300">Acerca De</a>
+                    <a href="{{ route('landing.acerca') }}" class="block py-1 px-3 text-gray-900 dark:text-white hover:text-yellow-400 dark:hover:text-yellow-300 md:p-0 transition duration-300">Acerca De</a>
                 </li>
                 <li>
                     <a href="{{ route('landing.quienes.somos') }}" class="block py-1 px-3 text-gray-900 dark:text-white hover:text-yellow-400 dark:hover:text-yellow-300 md:p-0 transition duration-300">Premios</a>
                 </li>
                 <li>
-                    <a href="{{ route('landing.quienes.somos') }}" class="block py-1 px-3 text-gray-900 dark:text-white hover:text-yellow-400 dark:hover:text-yellow-300 md:p-0 transition duration-300">Donaciones</a>
+                    <a href="{{ route('landing.donaciones') }}" class="block py-1 px-3 text-gray-900 dark:text-white hover:text-yellow-400 dark:hover:text-yellow-300 md:p-0 transition duration-300">Donaciones</a>
                 </li>
 
                 <li>

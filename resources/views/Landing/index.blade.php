@@ -33,12 +33,23 @@
                 <a href="{{ route('landing.index') }}" class="py-2 px-2 text-white hover:text-yellow-400 transition duration-300">Inicio</a>
                 <a href="{{ route('landing.proyectos') }}" class="py-2 px-2 text-white hover:text-yellow-400 transition duration-300">Proyectos</a>
                 <a href="{{ route('landing.blogs') }}" class="py-2 px-2 text-white hover:text-yellow-400 transition duration-300">Blogs</a>
-                <a href="#" class="py-2 px-2 text-white hover:text-yellow-400 transition duration-300">Nosotros</a>
+                <a href="{{ route('landing.galeria') }}" class="py-2 px-2 text-white hover:text-yellow-400 transition duration-300">Galeria de Fotos</a>
+                </li>
+                <a href="{{ route('landing.quienes.somos') }}" class="py-2 px-2 text-white hover:text-yellow-400 transition duration-300">¿Quiénes Somos?</a>
+                <a href="{{ route('landing.acerca') }}" class="py-2 px-2 text-white hover:text-yellow-400 transition duration-300">Acerca De</a>
+                <a href="{{ route('landing.donaciones') }}" class="py-2 px-2 text-white hover:text-yellow-400 transition duration-300">Donaciones</a>
             </div>
-            <div class="flex space-x-3">
-                <a href="#" class="px-4 py-2 text-sm bg-gray-800 text-white font-semibold rounded-full hover:bg-gray-700 transition duration-300">Login</a>
-                <a href="#" class="px-4 py-2 text-sm bg-gray-800 text-white font-semibold rounded-full hover:bg-yellow-600 transition duration-300">Registro</a>
-            </div>
+<div class="flex space-x-4">
+    <!-- Botón de Login -->
+    <a href="#" class="px-6 py-3 text-base bg-gray-800 text-white font-semibold rounded-lg hover:bg-gray-700 transition-all duration-300 transform hover:scale-105">
+        Login
+    </a>
+    <!-- Botón de Registro -->
+    <a href="#" class="px-6 py-3 text-base bg-yellow-600 text-white font-semibold rounded-lg hover:bg-yellow-500 transition-all duration-300 transform hover:scale-105">
+        Registro
+    </a>
+</div>
+
         </div>
     </div>
 
